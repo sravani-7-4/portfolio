@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 body{
     background-color: #f6f5f5;
     margin: 0px;
@@ -126,20 +127,6 @@ section{
     font-size: 20px;
     line-height: 5px;
 }
-/*.skills{
-    height: 500px;
-    background-color: #FFFFFF;
-    padding: 5% 10% 0px 10%;
-    display: flex;
-    justify-items: space-between;
-} */
-/*p{
-    font-family: calibri;
-    font-weight: bold;
-    color: black;
-    font-size: 50px;
-    line-height: 0px;
-}*/
 .skills{
     text-transform: uppercase;
     list-style-type: none;
@@ -149,7 +136,6 @@ section{
     padding: 20px;
     display: inline-flex;
     justify-content: space-evenly;
-    /*box-shadow: 0 14px 28px rgba(0,0, 0, 0.25), 0 10px 10px rgba(0,0,0,0.22);*/
 }
 .skills p:nth-child(1){
     font-family: calibri;
@@ -157,7 +143,6 @@ section{
     color: black;
     font-size: 50px;
     margin: 100px 100px;
-    /*line-height: 0px;*/
 }
 
 .skills li{
@@ -207,13 +192,54 @@ section{
     width: 60%;
     animation: js 3s;
 }
-/*.box-1,.box-2,.box-3,.box-4,.box-5,.box-6{
-    width: 150px;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 2px 2px 12px rgba(0,0, 0, 0.3);
-}*/
+@keyframes C{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes J{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes Cp{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
 .box-con{
     display: flex;
     justify-content: space-between;
